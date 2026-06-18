@@ -380,7 +380,6 @@ radius = 7.0
 
 [node name="Player" type="CharacterBody2D" unique_id=1590912428]
 script = ExtResource("1_fvtld")
-move_speed = null
 
 [node name="BodySprite" type="AnimatedSprite2D" parent="." unique_id=317399166]
 sprite_frames = SubResource("SpriteFrames_oyaf6")
@@ -395,3 +394,5 @@ frame_progress = 0.6181598
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1195411833]
 shape = SubResource("CircleShape2D_rtno0")
+
+[node name="ShootingTimer" type="Timer" parent="." unique_id=1628444547]
